@@ -37,23 +37,17 @@
 
 ---
 
-<h2 align="center">🏆 GitHub Trophies</h2>
-
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=nguyenvandiennlu&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7" alt="GitHub Trophies" />
+
 </p>
 
 ---
-
-<h2 align="center">🐍 Contribution Snake</h2>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/nguyenvandiennlu/nguyenvandiennlu/output/github-snake.svg" alt="Snake animation" />
 </p>
 
 ---
-
-<h2 align="center">📊 GitHub Stats</h2>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=nguyenvandiennlu&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
@@ -89,9 +83,9 @@
 ---
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
+
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
+
 </div>
