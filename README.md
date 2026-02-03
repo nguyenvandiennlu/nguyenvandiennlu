@@ -81,6 +81,41 @@
 
 ---
 
+<h2 align="center">🎵 Spotify</h2>
+
+<p align="center">
+  <a href="https://open.spotify.com/user/31ufv7hzmiyi4qlyf5okdwkjdhfm?si=f3b5b4d40d03414a" target="_blank">
+    <img src="https://novatorem.vercel.app/api/spotify" alt="Spotify Now Playing" width="400" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://open.spotify.com/user/31ufv7hzmiyi4qlyf5okdwkjdhfm?si=f3b5b4d40d03414a" target="_blank">
+    <img src="https://img.shields.io/badge/🎧_Follow_My_Playlist-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://spotify-github-readme.vercel.app/api/spotify-playing" alt="Spotify Playing" width="400" />
+</p>
+
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://media.giphy.com/media/EpB8oRhHSQcnu/giphy.gif" width="60" alt="Music GIF"/>
+    </td>
+    <td>
+      <strong>🎶 Đang nghe nhạc cùng tôi!</strong><br/>
+      <em>Click vào để xem playlist của tôi trên Spotify</em>
+    </td>
+    <td>
+      <img src="https://media.giphy.com/media/EpB8oRhHSQcnu/giphy.gif" width="60" alt="Music GIF"/>
+    </td>
+  </tr>
+</table>
+
+---
+
 <div align="center">
 
 </div>
