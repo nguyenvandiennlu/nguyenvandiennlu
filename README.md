@@ -81,38 +81,28 @@
 
 ---
 
-<h2 align="center">🎵 Spotify</h2>
+<h2 align="center">🎵 Now Playing on Spotify</h2>
 
-<p align="center">
-  <a href="https://open.spotify.com/user/31ufv7hzmiyi4qlyf5okdwkjdhfm?si=f3b5b4d40d03414a" target="_blank">
-    <img src="https://novatorem.vercel.app/api/spotify" alt="Spotify Now Playing" width="400" />
+<div align="center">
+  <a href="https://www.last.fm/user/vandienz" target="_blank">
+    <img src="https://lastfm-recently-played.vercel.app/api?user=vandienz&count=1&width=400" alt="Last.fm Now Playing"/>
   </a>
-</p>
+</div>
 
-<p align="center">
-  <a href="https://open.spotify.com/user/31ufv7hzmiyi4qlyf5okdwkjdhfm?si=f3b5b4d40d03414a" target="_blank">
-    <img src="https://img.shields.io/badge/🎧_Follow_My_Playlist-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" />
+<br/>
+
+<div align="center">
+  <a href="https://open.spotify.com/user/31ufv7hzmiyi4qlyf5okdwkjdhfm" target="_blank">
+    <img src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify"/>
   </a>
-</p>
+  <a href="https://www.last.fm/user/vandienz" target="_blank">
+    <img src="https://img.shields.io/badge/Last.fm-D51007?&style=for-the-badge&logo=last.fm&logoColor=white" alt="Last.fm"/>
+  </a>
+</div>
 
 <p align="center">
-  <img src="https://spotify-github-readme.vercel.app/api/spotify-playing" alt="Spotify Playing" width="400" />
+  <em>🎧 Bài hát tự động cập nhật khi tôi nghe nhạc!</em>
 </p>
-
-<table align="center">
-  <tr>
-    <td>
-      <img src="https://media.giphy.com/media/EpB8oRhHSQcnu/giphy.gif" width="60" alt="Music GIF"/>
-    </td>
-    <td>
-      <strong>🎶 Đang nghe nhạc cùng tôi!</strong><br/>
-      <em>Click vào để xem playlist của tôi trên Spotify</em>
-    </td>
-    <td>
-      <img src="https://media.giphy.com/media/EpB8oRhHSQcnu/giphy.gif" width="60" alt="Music GIF"/>
-    </td>
-  </tr>
-</table>
 
 ---
 
