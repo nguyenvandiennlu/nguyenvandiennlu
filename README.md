@@ -37,22 +37,6 @@
 
 ---
 
-<h2 align="center">📊 Thống Kê GitHub / GitHub Stats</h2>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nguyenvandiennlu&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nguyenvandiennlu&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nguyenvandiennlu&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
-
----
-
 <h2 align="center">🏆 GitHub Trophies</h2>
 
 <p align="center">
@@ -61,10 +45,10 @@
 
 ---
 
-<h2 align="center">📈 Biểu Đồ Hoạt Động / Activity Graph</h2>
+<h2 align="center">� Contribution Snake</h2>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nguyenvandiennlu&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
+  <img src="https://raw.githubusercontent.com/nguyenvandiennlu/nguyenvandiennlu/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </p>
 
 ---
