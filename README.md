@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hi+there+%F0%9F%91%8B+Welcome+to+my+GitHub!" alt="Typing SVG" />
+  <img src="./assets/header.svg" alt="ASCII Art Banner" width="840"/>
 </div>
 
 <h1 align="center">👨‍💻 Về Tôi / About Me</h1>
@@ -12,9 +12,8 @@
 🌟 Passionate Developer | 💡 Problem Solver | 🚀 Lifelong Learner
 ```
 
-- 🔭 Tôi hiện đang làm việc với **HeadHunt**
+- 🔭 Tôi hiện đang học ở **Trường Đại Học Nông Lâm TP.HCM**
 - 🌱 Tôi đang học **ReactJS, SpringBoot**
-- 👯 Tôi muốn hợp tác trong \*\*\*\*
 - 💬 Hỏi tôi về **JavaScript, Java, Web Development**
 - 📫 Liên hệ: **dienmailcv@gmail.com**
 - ⚡ Fun fact: **Tôi Fan A Độ MIXI**

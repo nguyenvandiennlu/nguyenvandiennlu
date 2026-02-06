@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="480" viewBox="0 0 840 480">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&amp;display=swap');
+      
+      .terminal-bg { fill: #0d1117; }
+      .terminal-border { fill: none; stroke: #30363d; stroke-width: 2; rx: 12; }
+      .title-bar { fill: #161b22; }
+      .btn-close { fill: #ff5f56; }
+      .btn-min { fill: #ffbd2e; }
+      .btn-max { fill: #27c93f; }
+      .ascii-text { 
+        font-family: 'Fira Code', 'Courier New', monospace; 
+        font-size: 14px; 
+        fill: #58a6ff;
+      }
+      .ascii-accent {
+        font-family: 'Fira Code', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #a9fef7;
+      }
+      .ascii-highlight {
+        font-family: 'Fira Code', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #f778ba;
+      }
+      .ascii-green {
+        font-family: 'Fira Code', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #27c93f;
+      }
+      .ascii-yellow {
+        font-family: 'Fira Code', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #ffbd2e;
+      }
+      .ascii-white {
+        font-family: 'Fira Code', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #c9d1d9;
+      }
+      .ascii-purple {
+        font-family: 'Fira Code', 'Courier New', monospace;
+        font-size: 14px;
+        fill: #bc8cff;
+      }
+      .prompt {
+        font-family: 'Fira Code', 'Courier New', monospace;
+        font-size: 13px;
+        fill: #8b949e;
+      }
+      .cursor {
+        fill: #58a6ff;
+        animation: blink 1s step-end infinite;
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      .line1 { animation: fadeIn 0.5s ease-in 0.2s both; }
+      .line2 { animation: fadeIn 0.5s ease-in 0.35s both; }
+      .line3 { animation: fadeIn 0.5s ease-in 0.5s both; }
+      .line4 { animation: fadeIn 0.5s ease-in 0.65s both; }
+      .line5 { animation: fadeIn 0.5s ease-in 0.8s both; }
+      .line6 { animation: fadeIn 0.5s ease-in 0.95s both; }
+      .line7 { animation: fadeIn 0.5s ease-in 1.1s both; }
+      .line8 { animation: fadeIn 0.5s ease-in 1.25s both; }
+      .line9 { animation: fadeIn 0.5s ease-in 1.4s both; }
+      .line10 { animation: fadeIn 0.5s ease-in 1.55s both; }
+      .line11 { animation: fadeIn 0.5s ease-in 1.7s both; }
+      .line12 { animation: fadeIn 0.5s ease-in 1.85s both; }
+      .line13 { animation: fadeIn 0.5s ease-in 2.0s both; }
+      .line14 { animation: fadeIn 0.5s ease-in 2.15s both; }
+      .line15 { animation: fadeIn 0.5s ease-in 2.3s both; }
+      .glow {
+        filter: drop-shadow(0 0 6px rgba(88, 166, 255, 0.4));
+      }
+      .glow-pink {
+        filter: drop-shadow(0 0 6px rgba(247, 120, 186, 0.4));
+      }
+    </style>
+  </defs>
+  
+  <!-- Terminal Window -->
+  <rect class="terminal-bg" x="0" y="0" width="840" height="480" rx="12"/>
+  <rect class="terminal-border" x="0" y="0" width="840" height="480" rx="12"/>
+  
+  <!-- Title Bar -->
+  <rect class="title-bar" x="1" y="1" width="838" height="36" rx="12"/>
+  <rect class="title-bar" x="1" y="25" width="838" height="12"/>
+  <circle class="btn-close" cx="24" cy="19" r="6"/>
+  <circle class="btn-min" cx="44" cy="19" r="6"/>
+  <circle class="btn-max" cx="64" cy="19" r="6"/>
+  <text x="420" y="23" text-anchor="middle" class="prompt">nguyenvandiennlu@github ~ </text>
+  
+  <!-- GitHub Octocat ASCII Art -->
+  <g class="glow">
+    <text x="280" y="72" class="ascii-accent line1">         ████████████         </text>
+    <text x="280" y="88" class="ascii-accent line2">       ██████████████████       </text>
+    <text x="280" y="104" class="ascii-accent line3">     ██████████████████████     </text>
+    <text x="280" y="120" class="ascii-accent line4">    ████████████████████████    </text>
+    <text x="280" y="136" class="ascii-text line5">   ██████  ████████  ██████   </text>
+    <text x="280" y="152" class="ascii-text line6">   ██████  ████████  ██████   </text>
+    <text x="280" y="168" class="ascii-accent line7">    ████████████████████████    </text>
+    <text x="280" y="184" class="ascii-accent line8">     ████████  ████████████     </text>
+    <text x="280" y="200" class="ascii-accent line9">      ████████████████████      </text>
+    <text x="280" y="216" class="ascii-highlight line10">   ████  ████████████████  ████</text>
+    <text x="280" y="232" class="ascii-highlight line11">   ██████  ████████████  ██████</text>
+    <text x="280" y="248" class="ascii-highlight line12">     ████  ████████████  ████  </text>
+    <text x="280" y="264" class="ascii-accent line13">           ██████████████       </text>
+    <text x="280" y="280" class="ascii-accent line14">           ██████  ██████       </text>
+  </g>
+
+  <!-- Name "Dien" in block letters -->
+  <g class="glow-pink">
+    <text x="145" y="320" class="ascii-highlight line12"> ██████╗  ██╗███████╗███╗   ██╗</text>
+    <text x="145" y="336" class="ascii-highlight line13"> ██╔══██╗ ██║██╔════╝████╗  ██║</text>
+    <text x="145" y="352" class="ascii-accent line13">  ██║  ██║ ██║█████╗  ██╔██╗ ██║</text>
+    <text x="145" y="368" class="ascii-accent line14">  ██║  ██║ ██║██╔══╝  ██║╚██╗██║</text>
+    <text x="145" y="384" class="ascii-highlight line14"> ██████╔╝ ██║███████╗██║ ╚████║</text>
+    <text x="145" y="400" class="ascii-highlight line15"> ╚═════╝  ╚═╝╚══════╝╚═╝  ╚═══╝</text>
+  </g>
+
+  <!-- Tagline -->
+  <text x="420" y="432" text-anchor="middle" class="ascii-white line15">Passionate Developer  |  Problem Solver  |  Lifelong Learner</text>
+  
+  <!-- Blinking Cursor -->
+  <text x="30" y="462" class="ascii-green line15">  $ _</text>
+  <rect class="cursor" x="52" y="452" width="8" height="14" rx="1"/>
+</svg>
