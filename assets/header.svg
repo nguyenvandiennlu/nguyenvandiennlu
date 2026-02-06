@@ -97,33 +97,32 @@
   <circle class="btn-max" cx="64" cy="19" r="6"/>
   <text x="420" y="23" text-anchor="middle" class="prompt">nguyenvandiennlu@github ~ </text>
   
-  <!-- GitHub Octocat ASCII Art -->
-  <g class="glow">
-    <text x="280" y="72" class="ascii-accent line1">         ████████████         </text>
-    <text x="280" y="88" class="ascii-accent line2">       ██████████████████       </text>
-    <text x="280" y="104" class="ascii-accent line3">     ██████████████████████     </text>
-    <text x="280" y="120" class="ascii-accent line4">    ████████████████████████    </text>
-    <text x="280" y="136" class="ascii-text line5">   ██████  ████████  ██████   </text>
-    <text x="280" y="152" class="ascii-text line6">   ██████  ████████  ██████   </text>
-    <text x="280" y="168" class="ascii-accent line7">    ████████████████████████    </text>
-    <text x="280" y="184" class="ascii-accent line8">     ████████  ████████████     </text>
-    <text x="280" y="200" class="ascii-accent line9">      ████████████████████      </text>
-    <text x="280" y="216" class="ascii-highlight line10">   ████  ████████████████  ████</text>
-    <text x="280" y="232" class="ascii-highlight line11">   ██████  ████████████  ██████</text>
-    <text x="280" y="248" class="ascii-highlight line12">     ████  ████████████  ████  </text>
-    <text x="280" y="264" class="ascii-accent line13">           ██████████████       </text>
-    <text x="280" y="280" class="ascii-accent line14">           ██████  ██████       </text>
+  <!-- GitHub Octocat Official Logo -->
+  <g transform="translate(330, 55) scale(0.35)" class="line1" style="animation: fadeIn 0.8s ease-in 0.3s both;">
+    <path fill="#ffffff" d="M256 0C114.6 0 0 114.6 0 256c0 113.1 73.3 209 175.1 242.9 12.8 2.4 17.5-5.5 17.5-12.3 0-6.1-.2-26.2-.3-47.3-71.2 15.5-86.3-30.1-86.3-30.1-11.6-29.6-28.4-37.4-28.4-37.4-23.2-15.9 1.8-15.6 1.8-15.6 25.6 1.8 39.1 26.3 39.1 26.3 22.8 39.1 59.8 27.8 74.4 21.3 2.3-16.5 8.9-27.8 16.2-34.2-56.8-6.5-116.6-28.4-116.6-126.5 0-27.9 10-50.8 26.3-68.7-2.6-6.5-11.4-32.5 2.5-67.8 0 0 21.5-6.9 70.4 26.2 20.4-5.7 42.3-8.5 64.1-8.6 21.7.1 43.6 2.9 64.1 8.6 48.8-33.1 70.2-26.2 70.2-26.2 14 35.3 5.2 61.3 2.6 67.8 16.4 17.9 26.3 40.8 26.3 68.7 0 98.3-59.8 120-116.8 126.3 9.2 7.9 17.4 23.5 17.4 47.4 0 34.2-.3 61.8-.3 70.2 0 6.8 4.6 14.8 17.6 12.3C438.7 465 512 369.1 512 256 512 114.6 397.4 0 256 0z"/>
   </g>
 
-  <!-- Name "Dien" in block letters -->
-  <g class="glow-pink">
-    <text x="145" y="320" class="ascii-highlight line12"> ██████╗  ██╗███████╗███╗   ██╗</text>
-    <text x="145" y="336" class="ascii-highlight line13"> ██╔══██╗ ██║██╔════╝████╗  ██║</text>
-    <text x="145" y="352" class="ascii-accent line13">  ██║  ██║ ██║█████╗  ██╔██╗ ██║</text>
-    <text x="145" y="368" class="ascii-accent line14">  ██║  ██║ ██║██╔══╝  ██║╚██╗██║</text>
-    <text x="145" y="384" class="ascii-highlight line14"> ██████╔╝ ██║███████╗██║ ╚████║</text>
-    <text x="145" y="400" class="ascii-highlight line15"> ╚═════╝  ╚═╝╚══════╝╚═╝  ╚═══╝</text>
-  </g>
+  <!-- Welcome Text -->
+  <text x="420" y="260" text-anchor="middle" class="ascii-accent line8" style="font-size: 18px; font-family: 'Fira Code', 'Courier New', monospace; fill: #a9fef7;">👋 Welcome to my GitHub!</text>
+
+  <!-- Username with glow + typing effect -->
+  <defs>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff">
+        <animate attributeName="stop-color" values="#58a6ff;#a9fef7;#f778ba;#bc8cff;#58a6ff" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#a9fef7">
+        <animate attributeName="stop-color" values="#a9fef7;#f778ba;#bc8cff;#58a6ff;#a9fef7" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#f778ba">
+        <animate attributeName="stop-color" values="#f778ba;#bc8cff;#58a6ff;#a9fef7;#f778ba" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+  <text x="420" y="340" text-anchor="middle" style="font-family: 'Fira Code', 'Courier New', monospace; font-size: 28px; fill: url(#nameGrad); filter: drop-shadow(0 0 8px rgba(88, 166, 255, 0.6));">
+    nguyenvandiennlu
+    <animate attributeName="opacity" values="0;1" dur="1.5s" begin="1.5s" fill="freeze"/>
+  </text>
 
   <!-- Tagline -->
   <text x="420" y="432" text-anchor="middle" class="ascii-white line15">Passionate Developer  |  Problem Solver  |  Lifelong Learner</text>
