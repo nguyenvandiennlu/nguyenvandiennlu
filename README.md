@@ -40,13 +40,6 @@
 
 </p>
 
----
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nguyenvandiennlu/nguyenvandiennlu/output/github-snake.svg" alt="Snake animation" />
-</p>
-
----
 
 <div align="center">
 
